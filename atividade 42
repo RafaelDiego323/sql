@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE OrderID %5=0
+AND ProductID BETWEEN 15 AND 30
+ORDER BY Quantity
