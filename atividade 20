@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE OrderDetailID <10
+AND Quantity %2=0
+ORDER BY  OrderID
