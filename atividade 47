@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE ProductID LIKE '0'
+AND OrderDetailID %2=0
+ORDER BY OrderID
