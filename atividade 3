@@ -1,0 +1,5 @@
+SELECT * FROM OrderDetails
+WHERE OrderID >5
+AND OrderID >15
+AND  Quantity % 2 = 0
+ORDER BY Quantity;
