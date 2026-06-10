@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE ProductID LIKE '9'
+AND Quantity < 20
+ORDER BY OrderDetailID
