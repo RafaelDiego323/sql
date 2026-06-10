@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE OrderID LIKE '2'
+AND ProductID > 15
+ORDER BY Quantity
