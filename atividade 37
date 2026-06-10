@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE ProductID %8=0
+AND OrderID <400
+ORDER BY Quantity
