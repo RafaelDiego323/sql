@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE Quantity > 15
+AND OrderDetailID LIKE ' 4'
+ORDER BY OrderID
