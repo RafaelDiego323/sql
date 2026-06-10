@@ -1,0 +1,5 @@
+SELECT * FROM OrderDetails
+WHERE ProductID >5
+AND ProductID <20
+AND OrderID LIKE '7'
+ORDER BY OrderDetailID
