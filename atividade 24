@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE ProductID >25
+AND OrderDetailID %3=0
+ORDER BY Quantity
