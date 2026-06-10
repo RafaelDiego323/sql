@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE OrderDetailID >50
+AND  ProductID = 0
+ORDER BY OrderID;
