@@ -1,0 +1,6 @@
+
+SELECT * FROM OrderDetails
+WHERE Quantity <20
+AND ProductID  LIKE'%6'
+AND Quantity >25
+ORDER BY  OrderID
