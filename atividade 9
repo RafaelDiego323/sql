@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE Quantity > 18
+AND  OrderID LIKE '%3'
+ORDER BY ProductID
