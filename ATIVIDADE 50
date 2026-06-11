@@ -1,0 +1,4 @@
+SELECT * FROM OrderDetails
+WHERE OrderDetailID > 300
+AND Quantity < 12
+ORDER BY OrderID
